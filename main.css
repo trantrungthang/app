@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+html{
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    scroll-behavior: smooth;
+    transition: 0.8s;
+    width: 800px;
+}
+body{
+    margin: 0;
+   
+  
+}
+header{
+    position: fixed;
+    top :0;
+    left: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+
+}
+.header-logo{
+    margin: 0;
+  padding: 10px;
+  font-size: 30px;
+  letter-spacing: 3.4px;
+
+}
+  .header-logo span{
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+color: #1877f2;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header .menu-items ul{
+    display: flex;
+    list-style: none;
+}
+
+.header .menu-items ul li{
+   margin: 10px 20px 10px 40px;
+   font-weight: 600;
+   letter-spacing: 2.2px;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.header .menu-items ul li a:hover{
+    cursor: pointer;
+    color: #1877f2;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+
+.image{
+    margin-top: 80px;
+}
+
+.facebook{
+    width: 800px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2.2px;
+}
+.facebook p{
+    background-color: #1877f2;
+    padding: 10px;
+    width: auto;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h2{
+    font-weight: 600;
+    font-size: 20px;
+}
+.content{
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.content a{
+    background-color: #1877f2;
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+}
+.content a:hover{
+    background-color: white;
+    color: #1877f2;
+    transition: 0.3s;
+}
+hr{
+    margin-top: 20px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    object-fit: cover;
+    padding-top: 30px;
+}
+
+.list .list-items img{
+    width: 250px;
+    border-radius: 4px;
+    height: 150px;
+    object-fit: cover;
+}
+.list .list-items img:hover{
+   cursor: pointer;
+   transform:scale(1.-1);
+   transition: 0.3s;
+}
+.list-items a{
+ background: none;
+}
+h3{
+   font-weight: 200;
+   letter-spacing: 1px;
+ 
+
+}
+h3:hover{
+    cursor: pointer;
+    color: #1877f2;
+    transition: 0.2s;
+font-weight: 600;
+}
